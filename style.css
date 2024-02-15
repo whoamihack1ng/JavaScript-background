@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    width: 50vw;
+}
+button{
+    background-color: white;
+    padding: 5px 12px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 17px;
+    border-radius: 6px;
+}
+#red{
+    color: red;
+    border: 2px solid red;
+}
+#red:hover{
+    background-color: red;
+    color: white;
+}
+#green{
+    color: green;
+    border: 2px solid green;
+}
+#green:hover{
+    background-color: green;
+    color: white;
+}
+#tomato{
+    color: tomato;
+    border: 2px solid tomato;
+}
+#tomato:hover{
+    background-color: tomato;
+    color: white;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.tomato{
+    background-color: tomato;
+}
